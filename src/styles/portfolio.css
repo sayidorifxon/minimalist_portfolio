@@ -1,0 +1,123 @@
+.portfoliocard{
+    margin: 80px 0;
+}
+.portfoliocard img{
+    width: 540px;
+}
+.portfolio__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+.portfolio__content{
+    padding: 100px 0;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+.portfoliocard h2{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 105%;
+letter-spacing: -0.01em;
+color: #33323d;
+margin-bottom: 24px;
+}
+.portfoliocard p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+color: #33323d;
+margin-bottom: 28px;
+max-width: 350px;
+width: 100%;
+}
+.portfolio__btn{
+    width: 175px;
+height: 48px;
+border: 1px solid #33323d;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #33323d;
+
+}
+.reversed{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+@media(max-width:900px){
+    .portfolio__wrapper {
+        gap: 90px;
+    }
+    .reversed {
+        gap: 90px;
+    }
+    .portfoliocard img {
+        width: 400px;
+    }
+}
+@media(max-width:800px){
+    .portfoliocard p {
+        font-size: 15px;
+        line-height: 170%;
+        margin-bottom: 28px;
+        max-width: 350px;
+        width: 100%;
+    }
+    .portfolio__wrapper {
+        gap: 80px;
+    }
+    .reversed {
+        gap: 80px;
+    }
+    .portfolio__content {
+        padding: 50px 0;
+        border-top: 1px solid #979797;
+        border-bottom: 1px solid #979797;
+    }
+}
+@media(max-width:700px){
+    .portfoliocard img {
+        width: 339px;
+    }
+    .portfolio__wrapper {
+        gap: 69px;
+    }
+    .reversed {
+        gap: 69px;
+    }
+    .portfolio__content {
+        padding: 32px 0;
+    }
+}
+@media(max-width:600px){
+    .portfolio__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .reversed{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfoliocard img {
+        width: 100%;
+    }
+    .portfoliocard p {
+        font-size: 16px;
+        line-height: 187%;
+        margin-bottom: 28px;
+        max-width: 500px;
+        width: 100%;
+    }
+}
