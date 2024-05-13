@@ -59,9 +59,20 @@ opacity: 0.8;
 .contact__bottom input{
     width: 100%;
     height: 48px;
-    background: #33323d;
-opacity: 0.1;
+    background: #979797;
 margin-bottom: 24px;
+border: none;
+}
+.contact__bottom input::placeholder{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 231%;
+color: #000000;
+padding-left: 16px;
+}
+.contact__bottom input:nth-of-type(3){
+    height: 96px;
 }
 .contact__bottom button{
     width: 200px;
