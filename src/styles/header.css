@@ -45,6 +45,7 @@ color: #5fb4a2;
     padding: 40px 65px;
     top: 75px;
     right: 15px;
+    z-index: 5;
 }
 .modal ul li .navlink {
     color: white;
