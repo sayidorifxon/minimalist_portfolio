@@ -69,6 +69,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 231%;
 color: #000000;
+opacity: 0.5;
 padding-left: 16px;
 }
 .contact__bottom input:nth-of-type(3){
